@@ -27,18 +27,18 @@
         <div class="col-lg-3 my-4">
             <h3 class="text-dark mb-2">Information</h3>
             <div class="d-flex align-items-start">
-                <a href="" class="mx-2 information"><i class="fa fa-map-marker m-2"></i></a>
+                <a href="" class="me-2 information"><i class="fa fa-map-marker m-2"></i></a>
                 <p class="ms-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatem doloribus quia mollitia. Officiis debitis explicabo, at quod doloremque natus!</p>
             </div>
             <div class="d-flex align-items-start">
-                <a href="" class="mx-2 information"><i class="fa fa-mobile m-2"></i></a>
+                <a href="" class="me-2 information"><i class="fa fa-mobile m-2"></i></a>
                 <p class="ms-3">(011) 000000000000
                     <br>
                     (011) 000000000000
                 </p>
             </div>
             <div class="d-flex align-items-start">
-                <a href="" class="mx-2 information"><i class="fa fa-envelope m-2"></i></a>
+                <a href="" class="me-2 information"><i class="fa fa-envelope m-2"></i></a>
                 <p class="ms-2">camerashoping@gmail.com</p>
             </div>
         </div>
@@ -52,7 +52,6 @@
 </div>
 
 
-
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
 <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
@@ -60,3 +59,33 @@
 </body>
 
 </html>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 'auto',
+        spaceBetween: 100,
+        centeredSlides: true,
+        grapCursor: true,
+        loop: true,
+        // pagination: {
+        // el: ".swiper-pagination",
+        // clickable: true,
+        // },
+        navigation: {
+            nextEl: "#brandRight",
+            prevEl: "#brandLeft",
+        },
+    });
+
+    var swiper2 = new Swiper(".mySwiper2", {
+        slidesPerView: 'auto',
+        spaceBetween: 110,
+        centeredSlides: true,
+        grapCursor: true,
+        loop: true,
+        navigation: {
+            nextEl: "#productRight",
+            prevEl: "#productLeft",
+        },
+    });
+</script>

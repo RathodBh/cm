@@ -178,5 +178,32 @@ body.index {
 /* cameras  */
 .pro-img {
     width: 100%;
-    aspect-ratio: 1/1;  
+    aspect-ratio: 1/1;
+}
+
+
+/* about  */
+#offer-container{
+    background: url('../images/camera-3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 10px;
+}
+.offerDiv {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    aspect-ratio: 1/1;
+    /* border: 2px dashed var(--green); */
+}
+
+@media screen and (min-width:767px) and (max-width:1000px) {
+    .offerDiv {
+        width: 130%;
+    }
+}
+
+@media screen and (max-width:356px) {
+    .offerDiv {
+        width: 130%;
+    }
 }
