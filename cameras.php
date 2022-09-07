@@ -166,7 +166,7 @@ if ($val == 1) {
                                 <h6 class="text-green">Rs. <?= $r['price']; ?> <span class="text-secondary ms-3"><s>Rs. <?= $r['crossPrice'] ?></s></span></h6>
 
 
-                                <?php if ($r['checkStatus'] == 'in-stock') { ?>
+                                <?php if ($r['checkStatus'] == 'In Stock') { ?>
                                     <a href="cameras.php?pid=<?php echo $r['id']; ?>&val=1" class="btn btn-success"><i class="fa fa-cart-plus pe-2"></i> Add to cart</a>
                                 <?php } else { ?>
                                     <a href="javascript:void(0)" class="btn btn-light btn-disabled text-danger">Out of stock</a>
@@ -206,7 +206,7 @@ if ($val == 1) {
                                     <h6 class="text-green">Rs. <?= $r['price']; ?> <span class="text-secondary ms-3"><s>Rs. <?= $r['crossPrice'] ?></s></span></h6>
 
 
-                                    <?php if ($r['checkStatus'] == 'in-stock') { ?>
+                                    <?php if ($r['checkStatus'] == 'In Stock') { ?>
                                         <a href="cameras.php?pid=<?php echo $r['id']; ?>&val=1" class="btn btn-success"><i class="fa fa-cart-plus pe-2"></i> Add to cart</a>
                                     <?php } else { ?>
                                         <a href="javascript:void(0)" class="btn btn-light btn-disabled text-danger">Out of stock</a>
@@ -241,7 +241,7 @@ if ($val == 1) {
                                     <h6 class="text-green">Rs. <?= $r['price']; ?> <span class="text-secondary ms-3"><s>Rs. <?= $r['crossPrice'] ?></s></span></h6>
 
 
-                                    <?php if ($r['checkStatus'] == 'in-stock') { ?>
+                                    <?php if ($r['checkStatus'] == 'In Stock') { ?>
                                         <a href="cameras.php?pid=<?php echo $r['id']; ?>&val=1" class="btn btn-success"><i class="fa fa-cart-plus pe-2"></i> Add to cart</a>
                                     <?php } else { ?>
                                         <a href="javascript:void(0)" class="btn btn-light btn-disabled text-danger">Out of stock</a>
@@ -276,7 +276,7 @@ if ($val == 1) {
                                     <h6 class="text-green">Rs. <?= $r['price']; ?> <span class="text-secondary ms-3"><s>Rs. <?= $r['crossPrice'] ?></s></span></h6>
 
 
-                                    <?php if ($r['checkStatus'] == 'in-stock') { ?>
+                                    <?php if ($r['checkStatus'] == 'In Stock') { ?>
                                         <a href="cameras.php?pid=<?php echo $r['id']; ?>&val=1" class="btn btn-success"><i class="fa fa-cart-plus pe-2"></i> Add to cart</a>
                                     <?php } else { ?>
                                         <a href="javascript:void(0)" class="btn btn-light btn-disabled text-danger">Out of stock</a>
@@ -305,7 +305,7 @@ if ($val == 1) {
                                 <h6 class="text-green">Rs. <?= $row['price']; ?> <span class="text-secondary ms-3"><s>Rs. <?= $row['crossPrice'] ?></s></span></h6>
 
 
-                                <?php if ($row['checkStatus'] == 'in-stock') { ?>
+                                <?php if ($row['checkStatus'] == 'In Stock') { ?>
                                     <a href="cameras.php?pid=<?php echo $row['id']; ?>&val=1" class="btn btn-success"><i class="fa fa-cart-plus pe-2"></i> Add to cart</a>
                                 <?php } else { ?>
                                     <a href="javascript:void(0)" class="btn btn-light btn-disabled text-danger">Out of stock</a>
